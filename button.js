@@ -18,12 +18,12 @@ var Button = React.createClass({
 
 var styles = StyleSheet.create({
   buttonText: {
-    color: '#0069d5',
+    color: '#0fc0d8',
     alignSelf: 'center',
     fontSize: 18
   },
   button: {
-    height: 36,
+    height: 40,
     backgroundColor: 'white',
     borderColor: 'white',
     borderWidth: 1,
