@@ -23,7 +23,7 @@ var styles = StyleSheet.create({
     fontSize: 18
   },
   button: {
-    height: 40,
+    height: 50,
     backgroundColor: 'white',
     borderColor: 'white',
     borderWidth: 1,
