@@ -18,7 +18,7 @@ var Button = React.createClass({
 
 var styles = StyleSheet.create({
   buttonText: {
-    color: '#0fc0d8',
+    color: '#2e8995',
     alignSelf: 'center',
     fontSize: 18
   },
