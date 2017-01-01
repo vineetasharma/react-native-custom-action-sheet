@@ -18,7 +18,7 @@ var ActionModal = React.createClass({
           <View style={styles.modalContainer}>
             <TouchableOpacity style={styles.container} onPress={this.props.onCancel}></TouchableOpacity>
             {this.props.children}
-            <Button onPress={this.props.onCancel} text={this.props.buttonText || "Cancel"} />
+            <Button style={styles.cancelText} onPress={this.props.onCancel} text={this.props.buttonText || "Cancel"} />
           </View>
         </Modal>
       </FadeInView>
@@ -35,7 +35,10 @@ var styles = StyleSheet.create({
     padding: 8,
     paddingBottom: 0,
     justifyContent: "flex-end"
-  }
+  },
+  cancelText: {
+    color: '#2e8995',
+  },
 });
 
 module.exports = ActionModal;
