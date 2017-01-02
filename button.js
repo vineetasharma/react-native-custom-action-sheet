@@ -20,7 +20,8 @@ var styles = StyleSheet.create({
   buttonText: {
     color: '#2e8995',
     alignSelf: 'center',
-    fontSize: 18
+    fontSize: 18,
+    fontWeight: '900',
   },
   button: {
     height: 50,
